@@ -1,5 +1,5 @@
 {
-  "name": "reactjs-master-2022",
+  "name": "reactjs-master-2022-trello-clone",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -58,5 +58,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://lifefi.github.io/reactjs-master-2022-todo-app"
+  "homepage": "https://lifefi.github.io/reactjs-master-2022-trello-clone"
 }
