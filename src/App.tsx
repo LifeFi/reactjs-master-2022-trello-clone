@@ -43,10 +43,10 @@ function App() {
   const onDragEnd = ({ draggableId, destination, source }: DropResult) => {
     if (!destination) return;
     setToDos((oldToDos) => {
-      const toDoCopy = [...oldToDos];
-      toDoCopy.splice(source.index, 1);
-      toDoCopy.splice(destination.index, 0, draggableId);
-      return toDoCopy;
+      const toDosCopy = [...oldToDos];
+      toDosCopy.splice(source.index, 1);
+      toDosCopy.splice(destination.index, 0, draggableId);
+      return toDosCopy;
     });
   };
 
